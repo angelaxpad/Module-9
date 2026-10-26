@@ -21,7 +21,7 @@ while True:
 
     totalextprice = totalextprice + extprice
 
-print("Total extended price: $", format(totalextprice. ".2f"))
+print("Total extended price: $", format(totalextprice, ".2f"))
 
 if totalextprice > 10000:
     discount = totalextprice * 0.10
