@@ -20,7 +20,7 @@ while True:
         print("Batting average:", format(average, ".3f"))
 
         playercount = playercount + 1
-   else:
+    else:
         print("At bats must be greater than zero.")
 
 print("Number of players entered:", playercount)
