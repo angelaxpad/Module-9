@@ -16,7 +16,7 @@ while True:
     extprice = calculatetotal(quantity, price)
 
     print("Quantity:", quantity)
-    print("Price: $", formate(price, ".2f"))
+    print("Price: $", format(price, ".2f"))
     print("Extended price: $", format(extprice, ".2f"))
 
     totalextprice = totalextprice + extprice
